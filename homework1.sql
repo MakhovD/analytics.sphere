@@ -43,10 +43,7 @@ where item_id = 42 and time > 100;
 
 --7
 select *
-from purchase_log
-limit 20;
-select *
-from match
+from purchase_log, match
 limit 20;
 
 
